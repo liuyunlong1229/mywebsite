@@ -21,6 +21,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ftp.samkirkland.com
-        username: myFtpUserName
-        password: eytytyut
+        server: ftp://39.104.204.40:21
+        username: www_liuylwebsite_com
+        password: ca6QnnjamGZ7bMZF
