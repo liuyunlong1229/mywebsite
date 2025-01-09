@@ -21,7 +21,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ftp://39.104.204.40:21/www/wwwroot/www.liuylwebsite.com
+        server: 39.104.204.40
         username: www_liuylwebsite_com
         password: ca6QnnjamGZ7bMZF
         
