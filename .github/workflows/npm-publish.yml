@@ -19,9 +19,9 @@ on:
      - name: FTP Deploy
        uses: SamKirkland/FTP-Deploy-Action@3.0.0
        with:
-	       ftp-server:  ftp://39.104.204.40:21
-		     ftp-username: ${{secrets.ftp_user}}
-		     ftp-password: ${{secrets.ftp_pwd}}
+         ftp-server: ftp.myhost.com/path/to/my/site
+         ftp-username: username
+         ftp-password: ${{ secrets.FTP_PASSWORD }}
 		     local-dir: build/
        env:
          CI: true
